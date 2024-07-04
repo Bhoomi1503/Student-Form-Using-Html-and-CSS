@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.form{
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    width: 600px;
+    padding: 40px 100px 100px 40px;
+    
+
+}
+.option{
+    width: 270px;
+}
+input:focus{
+    background-color: gray;
+    color: whitesmoke;
+}
+.font{
+    font-size: 20px;
+}
+
+form h1{
+    color: rgb(26, 26, 26);
+    text-align: center;
+}
+button{
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: aquamarine;
+    color:black;
+    
+}
+.btn1:hover{
+    background-color: gray;
+}
+.btn2:hover{
+    background-color: gainsboro;
+}
+::placeholder{
+    color: rgb(124, 124, 124);
+}
+body{
+ 
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    background: url('https://images.unsplash.com/photo-1431263154979-0982327fccbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input{
+    display: block;
+    width: 270px;
+    margin: 3px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    color: rgb(12, 42, 45);
+    background: transparent;
+
+}
+.box{
+    padding: 40px;
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    
+}
